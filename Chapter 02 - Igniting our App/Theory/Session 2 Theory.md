@@ -66,6 +66,7 @@ A: `Dependencies` should contain library and framework in which your app is buil
 `DevDependencies` should contain modules/packages a developer needs during development.
 such as, `parcel, webpack, vite, mocha`.
 `These packages` are `necessary only while you are developing your project`, not necessary on production.
+why becase These packages assist developers in writing high-quality code, automating tasks, and ensuring the project’s maintainability and reliability. Dev dependencies are typically installed during the development phase and are not necessary when running the project in a production environment.
 To save a dependency as a devDependency on installation we need to do, 
 ```
 npm install --save-dev
