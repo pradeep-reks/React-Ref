@@ -22,7 +22,7 @@ root.render(myElement);
 
 
 ## Q: Superpowers of `JSX`.
-A: Using JSX, you can write markup inside Javascript, providing you with a superpower to write logic and markup of a component inside a single .jsx file. JSX is easy to maintain and debug.
+A: Using JSX, you can write markup inside Javascript, that is its gives a superpower to write logic and markup of a component inside a single .jsx file. JSX is easy to maintain and debug.
 ### Example
 ```
 function greeting(user) {
