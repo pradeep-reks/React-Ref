@@ -96,6 +96,7 @@ CORS defines a way in which a browser and server can interact to determine wheth
 ## Q: What is `async and await`?
 A: Async/await is a feature in JavaScript that allows you to work with asynchronous code in a more synchronous-like manner, making it easier to write and understand asynchronous code.
 The `Async` function simply allows us to write promises-based code as if it were synchronous and it checks that we are not breaking the execution thread.Async functions will always return a value. It makes sure that a promise is returned and if it is not returned then JavaScript automatically wraps it in a promise which is resolved with its value.
+```
 `Await`: Await function is used to wait for the promise. It could be used within the `async` block only. It makes the code wait until the promise returns a result. It only makes the async block wait.
 for example: 
 ```
