@@ -81,6 +81,9 @@ Hooks allow you to reuse stateful logic without changing your component hierarch
 - useState: To manage states. Returns a stateful value and an updater function to update it.
 - useEffect: To manage side-effects like API calls, subscriptions, timers, mutations, and more.
 - useContext: To return the current value for a context.
+- useDispatch : Hook is a utility provided by the Redux library that allows React components to dispatch actions to the Redux store. It returns a reference to the dispatch function, which can be used to dispatch actions to the store.
+- useParams  : Hook helps to access the parameters of the current route to manage the dynamic routes in the URL. The react-router-dom package has useParams hooks that let you access and use the parameters of the current route as required.
+- useSelector : Hook is a feature provided by the React-Redux library that allows React components to access the state stored in a Redux store. It is a replacement for the traditional mapStateToProps function used in class-based components.
 - useReducer: A useState alternative to help with complex state management.
 - useCallback: It returns a memorized version of a callback to help a child component not re-render unnecessarily.
 - useMemo: It returns a memoized value that helps in performance optimizations.
