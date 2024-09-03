@@ -15,7 +15,7 @@ npm init
 
 ## Q: What is `Parcel/Webpack`? Why do we need it?
 A: `Parcel/Webpack` is type of a web application bundler used for development and productions purposes or power our application with different type functionalities and features.
-(A bundler is a tool used in web development that processes the source files of an application into static assets utilised by browsers. The primary purpose of bundlers is to organise modules and dependencies in front-end projects, optimise website performance, and reduce file sizes)
+``` (A bundler is a tool used in web development that processes the source files of an application into static assets utilised by browsers. The primary purpose of bundlers is to organise modules and dependencies in front-end projects, optimise website performance, and reduce file sizes) ```
 It offers blazing fast performance utilizing multicore processing, and requires zero configuration. Parcel can take any type of file as an entry point, but an HTML or JavaScript file is a good place to start.
 Parcel/Webpack are type of bundlers that we use to power our application with different type functionalities and features.
 
